@@ -5020,6 +5020,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+highlight.js@^11.5.1:
+  version "11.9.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.9.0.tgz#04ab9ee43b52a41a047432c8103e2158a1b8b5b0"
+  integrity sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==
+
 history@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/history/-/history-5.3.0.tgz#1548abaa245ba47992f063a0783db91ef201c73b"
@@ -6064,10 +6069,10 @@ leac@^0.6.0:
   resolved "https://registry.yarnpkg.com/leac/-/leac-0.6.0.tgz#dcf136e382e666bd2475f44a1096061b70dc0912"
   integrity sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==
 
-lemmy-js-client@^0.19.0-rc.13:
-  version "0.19.0-rc.13"
-  resolved "https://registry.yarnpkg.com/lemmy-js-client/-/lemmy-js-client-0.19.0-rc.13.tgz#e0e15ba6fe3a08cb85130eea7eec4bd2773999f9"
-  integrity sha512-JP9oEh1+Wfttqx5O5EMAVIR/hFVS66iVKmEo8/Uxw8fJfyUeQo7BhKvG8LTYegBE39Womgyu3KxXb7Jy9DRI5A==
+lemmy-js-client@0.19.0-rc.14:
+  version "0.19.0-rc.14"
+  resolved "https://registry.yarnpkg.com/lemmy-js-client/-/lemmy-js-client-0.19.0-rc.14.tgz#41885611c2d78e5cb6b01cf167d68205a471c215"
+  integrity sha512-U0KKFLrU0K+A7UlZr+k4olrXCXBxD+9cwMicu7L/wFyZ2aWHtGPaeO8V6mk6suv9vn2w2PWuimIIC+YICQ5xKg==
   dependencies:
     cross-fetch "^3.1.5"
     form-data "^4.0.0"
@@ -6402,6 +6407,11 @@ make-fetch-happen@^3.0.0:
     socks-proxy-agent "^3.0.1"
     ssri "^5.2.4"
 
+markdown-it-bidi@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-bidi/-/markdown-it-bidi-0.1.0.tgz#fca8297bbe8ec738102984371f571377b8df0b9f"
+  integrity sha512-4GloQnF+PiILh6wkLAIeSxCLo9qUW7LcKj/08GyCpvo0LLC6YEhrZBvM9RkMkieGG7i4uIRE/F5jmU14DgR8Wg==
+
 markdown-it-container@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-container/-/markdown-it-container-3.0.0.tgz#1d19b06040a020f9a827577bb7dbf67aa5de9a5b"
@@ -6416,6 +6426,13 @@ markdown-it-footnote@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
   integrity sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==
+
+markdown-it-highlightjs@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-highlightjs/-/markdown-it-highlightjs-4.0.1.tgz#6b8eb6a3b971ed592db1ff160cfa5ce9f2e44232"
+  integrity sha512-EPXwFEN6P5nqR3G4KjT20r20xbGYKMMA/360hhSYFmeoGXTE6hsLtJAiB/8ID8slVH4CWHHEL7GX0YenyIstVQ==
+  dependencies:
+    highlight.js "^11.5.1"
 
 markdown-it-html5-embed@^1.0.0:
   version "1.0.0"
